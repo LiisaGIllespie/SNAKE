@@ -10,7 +10,7 @@ int x, y, // координаты тела змейки
 	tailx[100], taily[100], // массив для хранения хвоста змейки
 	taillength; // длина хвоста 
 enum direction { STOP = 0, LEFT, RIGHT, UP, DOWN }; // движение
-direction dir; // переменная snakesDirection
+direction dir; // переменная direction
 bool gameover; // бул для чека, окончена игра уже или нет
 
 void game()
